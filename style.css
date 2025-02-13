@@ -60,7 +60,7 @@ body{
         height: 800px;
         display: grid;
         grid-template-columns: 150px  ;
-        grid-template-rows: 250px 260px 250px 250px;
+        grid-template-rows: 250px 270px 250px 250px;
         
     }
     .typing img{
