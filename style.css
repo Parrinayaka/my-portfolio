@@ -50,9 +50,17 @@ body{
     font-weight: bold;
     color: #3674B5;
 }
-@media(min-width:400px) and (max-width:999px){
-    body{
-        flex-wrap: wrap;
+@media (min-width:320px) and (max-width:440px){
+    .header{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+}
+@media (min-width:450px) and (max-width:790px){
+    .header{
+        font-size: 40px;
+        margin: 20px;
     }
 
 }
