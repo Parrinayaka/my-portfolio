@@ -55,6 +55,27 @@ body{
         font-size: 20px;
         margin: 20px;
     }
+    .typing {
+        width: 100%;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 150px  ;
+        grid-template-rows: 250px 250px 250px 250px;
+        
+    }
+    .typing img{
+        width: 150px;
+        height: 250px;
+
+    }
+    .info-wrap{
+        height: 300px;
+        padding-top: 300px;
+    }
+    #footer .bottom{
+       position: relative;
+       left: 30%;
+    }
 
 }
 @media (min-width:450px) and (max-width:790px){
@@ -62,6 +83,10 @@ body{
         font-size: 40px;
         margin: 20px;
     }
+    #footer .bottom{
+        position: relative;
+        left: 42%;
+     }
 
 }
 #footer{
